@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan: Bimo & Sekar</title>
+
+    <!-- Meta SEO -->
+    <meta name="description"
+        content="Undangan Pernikahan Online Bimo & Sekar - Mengundang Anda untuk menghadiri hari bahagia kami dengan tema adat Jawa.">
+    <meta name="keywords" content="undangan digital, undangan pernikahan jawa, bimo sekar wedding, undangan online">
+    <meta name="author" content="Antigravity Web Studio">
+
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css?v=20">
+</head>
+
+<body>
+
+    <!-- Background Pattern Overlay -->
+    <div class="bg-overlay"></div>
+
+    <!-- 1. COVER / GATE SECTION -->
+    <div class="cover-gate" id="cover-gate">
+        <!-- COVER HEAD -->
+        <div class="cover-head">
+            <img src="assets/head1.png" alt="Cover Head">
+        </div>
+        <!-- COVER PILLAR (TIANG) -->
+        <div class="cover-tiang left">
+            <img src="assets/tiang.png" alt="Cover Pillar Left">
+        </div>
+        <div class="cover-tiang right">
+            <img src="assets/tiang.png" alt="Cover Pillar Right">
+        </div>
+        <!-- COVER FLOWERS -->
+        <div class="cover-flower bottom-left">
+            <img src="assets/bunga.png" alt="Flower Left">
+        </div>
+        <div class="cover-flower bottom-left-2">
+            <img src="assets/bunga2.png" alt="Flower Left 2">
+        </div>
+        <div class="cover-flower bottom-right">
+            <img src="assets/bunga.png" alt="Flower Right">
+        </div>
+        <div class="cover-flower bottom-right-2">
+            <img src="assets/bunga2.png" alt="Flower Right 2">
+        </div>
+
+        <div class="cover-content">
+            <img src="assets/gunungan_gold.png" alt="Gunungan Wayang Emas" class="gunungan-gate">
+            <p class="cover-title-pre">Undangan Pernikahan</p>
+            <h1 class="cover-names">Bimo & Sekar</h1>
+
+            <div class="cover-invite-to">
+                <p>Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+                <h3 id="guest-name">Tamu Undangan</h3>
+            </div>
+
+            <button class="btn-open" id="btn-open">
+                <i class="fas fa-envelope-open"></i> Buka Undangan
+            </button>
+        </div>
+    </div>
+
+    <!-- FLOATING MUSIC PLAYER -->
+    <div class="music-player">
+        <button class="music-btn" id="music-btn" title="Mainkan/Hentikan Musik">
+            <i class="fas fa-pause"></i>
+        </button>
+        <audio id="bg-music" src="assets/gamelan.mp3" loop></audio>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-notification" id="toast">Nomor rekening berhasil disalin!</div>
+
+    <!-- MAIN APP CONTENT -->
+    <main class="main-content" id="main-content">
+
+        <!-- 2. INTRO SECTION (Kutipan/Filosofi) -->
+        <section id="intro" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="intro-card">
+                <p class="intro-quote">
+                    "Witing tresno jalaran soko kulino. Rukun runtut reruntungan paraning prono, mulyo mulyaning
+                    bebrayan agung."
+                </p>
+                <p class="intro-quote"
+                    style="font-size: 15px; margin-top: -10px; opacity: 0.85; font-family: 'Montserrat', sans-serif; font-style: normal;">
+                    Cinta tumbuh karena kebiasaan. Hidup rukun saling berdampingan menuju satu tujuan bersama, dalam
+                    kemuliaan keluarga yang luhur.
+                </p>
+                <div class="intro-author">— Falsafah Jawa —</div>
+
+                <div class="javanese-divider">
+                    <img src="assets/gunungan_gold.png" alt="Gunungan Divider">
+                </div>
+
+                <p style="font-size: 14px; line-height: 1.8; max-width: 600px; margin: 0 auto; opacity: 0.9;">
+                    Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri dan
+                    mendoakan restu pernikahan putra-putri kami:
+                </p>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. MEMPELAI SECTION -->
+        <section id="mempelai" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <h2 class="section-title">Mempelai</h2>
+            <div class="section-subtitle">Pasangan Pengantin</div>
+
+            <div class="mempelai-grid">
+                <!-- Mempelai Pria -->
+                <div class="mempelai-card">
+                    <div class="mempelai-photo-container">
+                        <!-- Standard illustration representation since it's customizable, or crop couple image -->
+                        <img src="assets/couple_jawa.png" alt="Bimo Setyo Wicaksono" class="mempelai-photo"
+                            style="object-position: left top;">
+                    </div>
+                    <h3>Bimo</h3>
+                    <div class="mempelai-fullname">Bimo Setyo Wicaksono, S.T.</div>
+                    <div class="mempelai-parents">
+                        Putra Pertama dari:<br>
+                        <strong>Bpk. Heru Prasetyo</strong><br>
+                        &amp;<br>
+                        <strong>Ibu Sri Wahyuni</strong><br>
+                        <span style="opacity: 0.7; font-size: 12px;">Semarang, Jawa Tengah</span>
+                    </div>
+                </div>
+
+                <!-- Ampersand -->
+                <div class="ampersand">&amp;</div>
+
+                <!-- Mempelai Wanita -->
+                <div class="mempelai-card">
+                    <div class="mempelai-photo-container">
+                        <img src="assets/couple_jawa.png" alt="Sekar Ayu Prameswari" class="mempelai-photo"
+                            style="object-position: right top;">
+                    </div>
+                    <h3>Sekar</h3>
+                    <div class="mempelai-fullname">Sekar Ayu Prameswari, S.E.</div>
+                    <div class="mempelai-parents">
+                        Putri Kedua dari:<br>
+                        <strong>Bpk. Bambang Utomo</strong><br>
+                        &amp;<br>
+                        <strong>Ibu Roro Astuti</strong><br>
+                        <span style="opacity: 0.7; font-size: 12px;">Yogyakarta, D.I.Y</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. ACARA & COUNTDOWN SECTION -->
+        <section class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div id="acara">
+                <h2 class="section-title" style="margin-bottom: 5px;">Waktu & Tempat</h2>
+                <div class="section-subtitle" style="margin-bottom: 30px;">Detail Acara Pernikahan</div>
+
+                <div class="acara-grid">
+                    <!-- Akad Nikah -->
+                    <div class="acara-card">
+                        <div class="acara-icon"><i class="fas fa-ring"></i></div>
+                        <h3>Akad Nikah</h3>
+                        <div class="acara-time">
+                            Sabtu, 10 Oktober 2026<br>
+                            Pukul 09.00 - 10.30 WIB
+                        </div>
+                        <div class="acara-detail">
+                            <strong>Masjid Agung Jawa Tengah</strong><br>
+                            Jl. Gajah Raya, Sambirejo, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166
+                        </div>
+                        <a href="https://maps.app.goo.gl/yX596FpGSwVfLndW8" target="_blank" rel="noopener noreferrer"
+                            class="btn-map">
+                            <i class="fas fa-map-marker-alt"></i> Lihat Peta Akad
+                        </a>
+                    </div>
+
+                    <!-- Resepsi -->
+                    <div class="acara-card">
+                        <div class="acara-icon"><i class="fas fa-utensils"></i></div>
+                        <h3>Resepsi Pernikahan</h3>
+                        <div class="acara-time">
+                            Sabtu, 10 Oktober 2026<br>
+                            Pukul 11.00 - 14.00 WIB
+                        </div>
+                        <div class="acara-detail">
+                            <strong>Gedung Sasana Krida</strong><br>
+                            Jl. Gajah Raya (Kawasan MAJT), Gayamsari, Kota Semarang, Jawa Tengah 50166
+                        </div>
+                        <a href="https://maps.app.goo.gl/yX596FpGSwVfLndW8" target="_blank" rel="noopener noreferrer"
+                            class="btn-map">
+                            <i class="fas fa-map-marker-alt"></i> Lihat Peta Resepsi
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Countdown Timer -->
+                <div class="countdown-container">
+                    <h4>Menuju Hari Bahagia</h4>
+                    <div class="countdown-timer" id="countdown-timer">
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="days">00</div>
+                            <div class="countdown-label">Hari</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="hours">00</div>
+                            <div class="countdown-label">Jam</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="minutes">00</div>
+                            <div class="countdown-label">Menit</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="seconds">00</div>
+                            <div class="countdown-label">Detik</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. GALERI FOTO SECTION -->
+        <section id="galeri" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <h2 class="section-title">Galeri Kebersamaan</h2>
+            <div class="section-subtitle">Momen Indah Kami</div>
+
+            <div class="gallery-grid">
+                <!-- Gallery items -->
+                <div class="gallery-item">
+                    <img src="assets/couple_jawa.png" alt="Momen Galeri 1" style="object-position: center 20%;">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/batik_bg.png" alt="Momen Galeri 2" style="filter: brightness(0.6) sepia(0.3);">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/couple_jawa.png" alt="Momen Galeri 3"
+                        style="filter: grayscale(40%) contrast(1.1);">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gunungan_gold.png" alt="Momen Galeri 4"
+                        style="background-color: var(--medium-brown); padding: 15px;">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/couple_jawa.png" alt="Momen Galeri 5" style="object-position: left center;">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/batik_bg.png" alt="Momen Galeri 6"
+                        style="filter: hue-rotate(15deg) brightness(0.7);">
+                </div>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. KADO DIGITAL SECTION -->
+        <section id="kado" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <h2 class="section-title">Kado Digital</h2>
+            <div class="section-subtitle">Tanda Kasih</div>
+
+            <div class="kado-container">
+                <p class="kado-desc">
+                    Doa restu Anda merupakan karunia terindah bagi kami. Namun, apabila Anda ingin memberikan tanda
+                    kasih secara digital, Anda dapat mengirimkannya melalui rekening di bawah ini:
+                </p>
+
+                <!-- Rekening 1 -->
+                <div class="gift-card">
+                    <div class="bank-logo">BANK BCA</div>
+                    <div class="account-number" id="norek-bca">1234567890</div>
+                    <div class="account-name">a.n. BIMO SETYO WICAKSONO</div>
+                    <button class="btn-copy" onclick="copyToClipboard('1234567890')">
+                        <i class="far fa-copy"></i> Salin Nomor
+                    </button>
+                </div>
+
+                <!-- Rekening 2 -->
+                <div class="gift-card">
+                    <div class="bank-logo">BANK MANDIRI</div>
+                    <div class="account-number" id="norek-mandiri">9876543210</div>
+                    <div class="account-name">a.n. SEKAR AYU PRAMESWARI</div>
+                    <button class="btn-copy" onclick="copyToClipboard('9876543210')">
+                        <i class="far fa-copy"></i> Salin Nomor
+                    </button>
+                </div>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. RSVP & UCAPAN SECTION -->
+        <section id="rsvp-ucapan" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <!-- Form RSVP -->
+            <div class="rsvp-form-container">
+                <h3>Kehadiran & RSVP</h3>
+                <form id="rsvp-form">
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" class="form-control" placeholder="Masukkan nama Anda..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Konfirmasi Kehadiran</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" name="kehadiran" id="hadir" value="hadir" required>
+                                <label for="hadir" class="radio-label">Hadir</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" name="kehadiran" id="tidak_hadir" value="tidak_hadir" required>
+                                <label for="tidak_hadir" class="radio-label">Tidak Hadir</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ucapan">Doa Restu & Ucapan</label>
+                        <textarea id="ucapan" class="form-control"
+                            placeholder="Tulis ucapan selamat dan doa restu Anda..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Kirim Doa Restu</button>
+                </form>
+            </div>
+
+            <!-- Daftar Doa Restu -->
+            <div class="wishes-container">
+                <h3>Doa Restu & Ucapan</h3>
+                <div class="wishes-list" id="wishes-list">
+                    <!-- Dynamic wishes will be loaded here via AJAX -->
+                    <p style="text-align: center; opacity: 0.6; padding: 20px;">Memuat ucapan...</p>
+                </div>
+            </div>
+
+            <!-- Decorative Swaying Flowers -->
+            <div class="section-flower-container">
+                <div class="flower-wrapper reveal">
+                    <img src="bunga1.png" class="flower-item flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+            <!-- Decorative Swaying Flowers (Right) -->
+            <div class="section-flower-container-right">
+                <div class="flower-wrapper-right reveal">
+                    <img src="bunga1.png" class="flower-item-right flower-item-1" alt="Bunga 1">
+                    <img src="bunga2.png" class="flower-item-right flower-item-2" alt="Bunga 2">
+                    <img src="bunga3.png" class="flower-item-right flower-item-3" alt="Bunga 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SEKSI TERIMA KASIH (Penutup) -->
+        <section id="terima-kasih" class="reveal">
+            <!-- HEAD DECORATION -->
+            <div class="head-decoration-container">
+                <img src="assets/head.png" alt="Head Decoration" class="head-item">
+            </div>
+            <!-- HANGING LAMP DECORATION -->
+            <div class="lamp-container left">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="lamp-container right">
+                <img src="assets/lamp.png" alt="Lamp Decoration" class="lamp-item">
+            </div>
+            <div class="closing-card">
+                <div class="closing-photo-container">
+                    <img src="assets/couple_jawa.png" alt="Bimo & Sekar" class="closing-photo">
+                </div>
+
+                <p class="closing-text">
+                    Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan
+                    memberikan doa restu bagi pernikahan kami.
+                </p>
+                <p class="closing-text" style="font-style: italic; opacity: 0.85;">
+                    Matur nuwun (Terima kasih banyak) atas doa restu dan perhatian Anda sekalian. Sampai jumpa di hari
+                    bahagia kami!
+                </p>
+
+                <div class="javanese-divider">
+                    <img src="assets/gunungan_gold.png" alt="Gunungan Divider">
+                </div>
+
+                <p class="closing-salutation">Kami yang berbahagia,</p>
+                <h3
+                    style="font-family: 'Cinzel Decorative', cursive; color: var(--gold); font-size: 28px; margin-top: 15px;">
+                    Bimo & Sekar</h3>
+                <p style="font-size: 13px; opacity: 0.7; margin-top: 5px;">Beserta Keluarga Besar</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sample1",
+    "nama": "Gibran Rakabuming",
+    "kehadiran": "hadir",
+    "ucapan": "Selamat menempuh hidup baru Bimo dan Sekar! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Amin.",
+    "timestamp": "2026-05-24 12:00:00"
+  },
+  {
+    "id": "sample2",
+    "nama": "Sri Sultan Hamengkubuwono X",
+    "kehadiran": "hadir",
+    "ucapan": "Sugeng mangayubagyo, mugi-mugi tansah pinaringan berkah lan karahayon ing bebrayan agung.",
+    "timestamp": "2026-05-24 11:30:00"
+  }
+]
