@@ -8,15 +8,15 @@ pattern = re.compile(r'<!-- Decorative Swaying Flowers -->\s*<div class="section
 replacement = """<!-- Decorative Swaying Flowers (Left) -->
             <div class="section-flower-container left">
                 <div class="flower-wrapper reveal">
-                    <img src="assets/1.png" class="flower-item flower-1" alt="Bunga 1">
-                    <img src="assets/2.png" class="flower-item flower-2" alt="Bunga 2">
+                    <img src="assets/bunga3.png" class="flower-item flower-1" alt="Bunga 1">
+                    <img src="assets/bunga4.png" class="flower-item flower-2" alt="Bunga 2">
                 </div>
             </div>
             <!-- Decorative Swaying Flowers (Right) -->
             <div class="section-flower-container right">
                 <div class="flower-wrapper-right reveal">
-                    <img src="assets/1.png" class="flower-item-right flower-1" alt="Bunga 1">
-                    <img src="assets/2.png" class="flower-item-right flower-2" alt="Bunga 2">
+                    <img src="assets/bunga3.png" class="flower-item-right flower-1" alt="Bunga 1">
+                    <img src="assets/bunga4.png" class="flower-item-right flower-2" alt="Bunga 2">
                 </div>
             </div>"""
 
